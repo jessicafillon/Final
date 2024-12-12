@@ -1,0 +1,10 @@
+def count_frequencies():
+    
+    input_strings = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple']          # added strings to test
+    string_dictionary = {}
+
+    for item in input_strings:
+        string_dictionary[item] = string_dictionary.get(item, 0) + 1
+    print(string_dictionary)
+
+count_frequencies()
